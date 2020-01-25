@@ -4,16 +4,17 @@ language: R
 cache: packages
 
 before_install:
-  # ImageMagick
-  - sudo add-apt-repository -y ppa:opencpu/imagemagick
-  - sudo apt-get update
-  - sudo apt-get install -y libmagick++-dev
-  # MPFR
-  - sudo apt install -qq libmpfr-dev
-  # Poppler
-  - sudo add-apt-repository -y ppa:cran/poppler
-  - sudo apt-get update
-  - sudo sudo apt-get install -y libpoppler-cpp-dev
   # prerequisites
+  - sudo apt-get update
   - sudo apt-get install libmagick++-dev libudunits2-dev libgdal-dev build-essential libcurl4-gnutls-dev libxml2-dev libssl-dev
+  # ImageMagick
+  #- sudo add-apt-repository -y ppa:opencpu/imagemagick
+  #- sudo apt-get update
+  #- sudo apt-get install -y libmagick++-dev
+  # MPFR
+  #- sudo apt install -qq libmpfr-dev
+  # Poppler
+  #- sudo add-apt-repository -y ppa:cran/poppler
+  #- sudo apt-get update
+  #- sudo sudo apt-get install -y libpoppler-cpp-dev
 
