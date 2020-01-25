@@ -82,7 +82,7 @@ Then click the 'Send to:' drop down, check the 'Complete Record' radio button, t
 The output produced by GenBank is likely to be a '.seq' file, or, if using a list of accessions gathered in a different way (e.g. compiled by hand), a list of accessions saved in a .csv format is okay as long as there are no headers or row names. 
 
 
-For this vignette we will work with a fixed set of 335 accessions in the file "vignette_accessions.csv" from the pacakge. This file can be accessed from the extdata directory through the 'system.file' command (see below for an example of its usage).
+For this vignette we will work with a fixed set of 335 accessions in the file "vignette_accessions.csv" from the package. This file can be accessed from the extdata directory through the 'system.file' command (see below for an example of its usage).
 
 
 
